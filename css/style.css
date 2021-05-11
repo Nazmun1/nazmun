@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.bod{
+	font-family: 'Merriweather', serif;
+}
+a, a:hover, a:focus{
+	text-decoration: none;
+}
+.row{
+	border-bottom: 1px solid #fff;
+}
+.overlay{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0.4;
+	z-index: -1
+	left: 0;
+	top: 0;
+}
+.logo > a{
+	font-size: 24px;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+}
+.manu ul{
+	padding-top: 10px;
+	float: right;
+}
+.manu ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.manu ul li a{
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 6px 12px;
+	display: block;
+	color: #FFFFFF;
+	
+}
+.hero-content{
+	padding: 130px 320px 130px 0px;
+	color: #FFFFFF;
+}
+.hero-title{
+	font-size: 40px;
+}
+.hero-content > p{
+	font-size: 15px;
+}
+.hero-btn{
+	margin-top: 36px;
+	display: inline-block;
+	padding: 10px 25px;
+	font-size: 18px;
+	font-weight: 900;
+	color: #FFFFFF;
+	background-color: #00FDFF;
+	border-radius: 50px;
+}
+.float-left > h2{
+	font-size: 35px;
+	color: #100401;
+}
+.float-left > p{
+	font-size: 15px;
+	color: #969292;
+}
+.abouts-us h2{
+	margin-top: 40px;
+	padding-top: 30px;
+}
+.fotter{
+	margin-top: 30px;
+}
+.fotter .icon{
+	font-size: 40px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	color: #B09791;
+	padding-top: 20px;
+}
+.fotter .book{
+	font-size: 40px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	color: #B09791;
+	padding-top: 50px;
+}
+.fotter .pen{
+	font-size: 40px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%; 
+	color: #B09791;
+	padding-top: 80px;
+}
+.fotter h3{
+	float: left;
+	font-size: 20px;
+}
+.fotter p{
+	float: left;
+	font-size: 14px;
+	color: #969292;
+}
+.fotter img{
+	height: 250px;
+	width: auto;
+	float: right;
+}
+.box1{
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+}
+.box2{
+	position: absolute;
+	left: 100px;
+	top: 130px;
+}
